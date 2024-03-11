@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/fetch.ts",
-    "start": "yarn build && node dist/fetch.js"
+    "start": "yarn build && node dist/fetch.js",
+    "fetch": "node dist/fetch.js"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
